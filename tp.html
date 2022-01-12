@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HTML 5 Boilerplate</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      </head>
+    <body>
+        <div style="margin-top: 20px;margin-left: 20px;">
+        <h1>To do App</h1>
+        <div class="row" style="margin-top: 20px;margin-left: 20px;">
+            <input type="text" id="taskName"><soan style="width:30px;"></soan> <button onclick="addTask()" class="btn btn-primary">Add Task</button>
+        </div>
+        <hr>
+        <div class="jumbotron" style="width: 800px;">
+            <h3>Pending</h3>
+            <div id="pendingList" style="display: inline;"></div>
+        </div>
+        <hr>
+        <div class="jumbotron" style="width: 800px;">
+            <h3>Completed</h3>
+            <div id="completedList"></div>
+        </div>
+    </div>
+        <script src="todoapp.js"></script>
+    </body>
+</html>
